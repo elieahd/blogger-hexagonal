@@ -1,0 +1,21 @@
+name: ✅ Tests
+
+on: push
+
+jobs:
+  checks:
+    name: ✅ Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Checkout code
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '24'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: 🧪 Run tests
+        run: mvn verify
