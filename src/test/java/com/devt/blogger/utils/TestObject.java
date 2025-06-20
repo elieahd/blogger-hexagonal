@@ -1,7 +1,7 @@
 package com.devt.blogger.utils;
 
-import com.devt.blogger.models.Category;
-import com.devt.blogger.models.Post;
+import com.devt.blogger.domain.entities.Category;
+import com.devt.blogger.domain.entities.Post;
 
 import java.time.LocalDateTime;
 import java.util.List;

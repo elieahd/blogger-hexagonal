@@ -20,7 +20,10 @@
 
     <properties>
         <java.version>24</java.version>
+        <!-- dependencies -->
         <mybatis.version>3.0.4</mybatis.version>
+        <!-- test dependencies -->
+        <archunit.version>1.4.1</archunit.version>
         <randomizer.version>0.2.3</randomizer.version>
     </properties>
 
@@ -62,6 +65,12 @@
             <groupId>io.github.elieahd</groupId>
             <artifactId>randomizer</artifactId>
             <version>${randomizer.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.tngtech.archunit</groupId>
+            <artifactId>archunit-junit5</artifactId>
+            <version>${archunit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>

@@ -7,4 +7,4 @@ spring:
     password: ${DB_PASSWORD}
 
 mybatis:
-  type-handlers-package: com.devt.blogger.repositories.types
+  type-handlers-package: com.devt.blogger.infrastructure.outbound.database.dao.types
