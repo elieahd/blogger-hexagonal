@@ -13,7 +13,7 @@ The goal of this repo, is to highlight a real use case of the differences betwee
 * Traditional layer : [`traditional` branch](https://github.com/elieahd/blogger-hexagonal/tree/traditional)
 * Hexagonal layer : [`hexagonal` branch](https://github.com/elieahd/blogger-hexagonal/tree/hexagonal)
 
-This is part of an article: [Transforming traditional layered architecture into hexagonal architecture]()
+This is part of an article: [Transforming traditional layered architecture into hexagonal architecture](https://eliedhr.medium.com/transforming-a-traditional-spring-boot-app-into-a-hexagonal-architecture-0040b85add57)
 
 ## Pipelines
 
